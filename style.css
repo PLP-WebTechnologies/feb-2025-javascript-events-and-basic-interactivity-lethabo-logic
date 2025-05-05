@@ -1,0 +1,148 @@
+/* style.css */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f0f8ff;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  button {
+    padding: 12px 20px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    flex: 1 1 auto;
+    min-width: 150px;
+    max-width: 100%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  /* Optional hover effect */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  #hoverBox {
+    padding: 20px;
+    background: #eee;
+    margin-top: 10px;
+    transition: background 0.3s ease;
+    text-align: center;
+  }
+  
+  .tab-content {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: white;
+  }
+  
+  .gallery img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    transition: transform 0.3s ease;
+  }
+  
+  form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  #feedback {
+    text-align: center;
+    font-weight: bold;
+    color: green;
+  }
+  
+  @media (min-width: 600px) {
+    button {
+      width: auto;
+    }
+  
+    .tabs {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+  }
+
+  /* Enhance tab buttons */
+.tabs .tab {
+    flex: 1;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .tabs .tab:hover {
+    background-color: #d0d0d0;
+  }
+  
+  /* Highlight active tab (optional) */
+  .tabs .tab.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Style tab content */
+  .tab-content {
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+  .tab-content h3 {
+    margin-top: 0;
+    color: #007bff;
+  }
+  
+  .tab-content ul {
+    padding-left: 20px;
+  }
+  
+  .tab-content ul li {
+    margin-bottom: 8px;
+  }
+  
+  .hotpink {
+  background-color: hotpink !important;
+  color: white;
+}
